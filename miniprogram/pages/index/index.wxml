@@ -1,0 +1,35 @@
+<!--index.wxml-->
+
+<view class="container">
+
+  <!-- 用户 openid -->
+  
+
+  <view id="func_sl">
+    <button class="block" bindtap='jump'>抽签模式</button>
+
+    <button class="block" bindtap='jump1'>配对模式</button>
+
+    <button class="block" bindtap='jump_m'>上帝&天使</button>
+
+    <button class="block" bindtap='jump2'>Life's Problems</button>
+
+    <button id="manager" bindtap='manager' >{{manager}}</button>
+  </view>
+  <button id="login" type="primary" open-type="getUserInfo" bindtap='log' disabled="{{isDisable}}" bindgetuserinfo='getUserInfo'>{{msg1}}</button>
+  
+    <image id="head" src="{{avatarUrl}}"></image>
+  <view id="hello">{{msg2}}</view>
+  
+  
+
+  
+  <view id="copyright">
+  Copyright © 2018 SYSU_SDCS_LIFE All rights reserved.
+  </view>
+  
+
+
+
+
+</view>

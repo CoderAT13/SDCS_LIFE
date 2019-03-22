@@ -1,0 +1,17 @@
+/* pages/misson/misson.wxss */
+page {
+  background: url("https://6865-helloworld-b112e5-1257864571.tcb.qcloud.la/excuseMe.png?sign=46d4269e7240ff6364ae9a781e2da24f&t=1540701121");
+  background-size: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+#title{
+  justify-content: center;
+}
+
+.mission_block{
+  background: rgba(255,255,255,0.8);
+  font-size: 40px;
+}

@@ -1,0 +1,22 @@
+<view id="title">God&Angel</view>
+<view class="lt">你的上帝信息：</view>
+<view class="your_God_name">{{items.name}}</view>
+<textarea class="your_God_content" disabled='true' maxlength="-1" auto-height="true">{{items.content}}</textarea>
+<view class="lt">{{u_req}}</view>
+<form bindsubmit="bindFormSubmit">
+  <textarea id="inputBoard" name="textarea" value="{{req}}" placeholder='Insert here' maxlength="-1" auto-height="true"></textarea>
+  <button class="subm"  form-type="submit" > {{subm}} </button>
+</form>
+
+<button class="subm" type='primary' bindtap='jump'>返回</button>
+<view class="rule">
+规则
+<text id="rules">
+  1、内建工作组成员：杨玲、徐雪影、（CoderAt）
+  2、对于需要远程提交的任务请在发布时提供邮箱之类的
+  3、天使被投诉成功两次的，要请上帝一杯奶茶
+  4、上帝最后猜不出天使是谁的，要请天使一杯奶茶
+  5、上帝可向内建工作人员投诉天使，需要提供内容截图和原因说明
+  6、最终解释权归内建工作组
+</text>
+</view>

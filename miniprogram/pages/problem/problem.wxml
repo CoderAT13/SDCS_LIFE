@@ -1,0 +1,34 @@
+<view id="title">Life's Problems</view>
+
+<view class="lt">每周题目</view>
+<form id="weeks" bindsubmit="bindFormSubmit">
+  <textarea class="inputBoard" name="textarea" value="{{wk_c}}" placeholder='Insert here' disabled='{{disa}}' maxlength="-1" auto-height="true"></textarea>
+  <button class="subm"  form-type="submit" > {{week}} </button>
+</form>
+<view class="lt">每月题目</view>
+<form id="months" bindsubmit="bindFormSubmit">
+  <textarea class="inputBoard" name="textarea" value="{{mh_c}}" placeholder='Insert here' disabled='{{disa}}' maxlength="-1" auto-height="true"></textarea>
+  <button class="subm"  form-type="submit" > {{month}} </button>
+</form>
+<view class="lt">学期终极题目</view>
+<form id="half_years" bindsubmit="bindFormSubmit">
+  <textarea class="inputBoard" name="textarea" value="{{hy_c}}" placeholder='Insert here'
+  disabled='{{disa}}' maxlength="-1" auto-height="true"></textarea>
+  <button class="subm"  form-type="submit" > {{half_year}} </button>
+</form>
+
+<view class="rule">
+规则：
+<text id="rules">
+  1、该活动面向所有SYSU SDCS团委生活部2018级成员
+  2、出题人为CoderAt、WK、TJn
+  3、出题人在出题后备注上出题日期、DDL、出题人
+  4、在题目规定时间内完成题目，并向出题人证明结果，通过后出题人反馈给CoderAt
+  5、按完成质量评分，最高分：周题目2分、月题目10分、学期题目50分
+  6、在2018-2019学年下学期结束时结算。
+  7、总分高于50分者瓜分100元红包（随机红包）
+  8、排名前二，且总分>100，满足一个总分范围内RMB的愿望（与7不重复）
+  9、活动一切解释权归SYSU_SDCS_Life 部长、副部长。
+  10、对于多条题目，可选择一条来做，每个题目所属周期只能获得一次分数。
+</text>
+</view>

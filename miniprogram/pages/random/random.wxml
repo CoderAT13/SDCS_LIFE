@@ -1,0 +1,20 @@
+<!--random.wxml-->
+<view class="title">FATE</view>
+<view class="block">
+      <navigator url="../nameList/nameList">设置参与名单</navigator>
+    </view>
+<view class="block1">
+  <button bindtap="list"> 目前参与抽签 {{max}} 人</button>
+  <view wx:for="{{out_list}}">{{item}}</view>
+</view>
+<view class="section_section_gap">
+  <text class="res">设置抽取人数:</text>
+  <view class="body-view">
+    <slider id="slider" bindchange="sliderChange" min="1" max="{{max}}" show-value/>
+  </view>
+</view>
+
+<button class="do" type="primary" bindtap='comfirm'>Do</button>
+<view class="res">抽签结果：</view>
+<view class="resList" wx:for="{{resList}}">{{index+1}}: {{item}}</view>
+<button class="comfirm" type="primary" bindtap='jump'>返回首页</button>

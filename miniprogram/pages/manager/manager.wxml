@@ -1,0 +1,6 @@
+<label wx:for="{{AAG}}">
+<text>{{item.name}}:
+{{item.request}}
+
+</text>
+</label>

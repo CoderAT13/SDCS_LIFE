@@ -1,0 +1,27 @@
+<!--match.wxml-->
+<view class="title">MATCH!</view>
+<view class="block">
+      <navigator url="../nameList/nameList">设置参与名单</navigator>
+    </view>
+<view class="block1">
+  <button bindtap="list"> 目前参与配对 {{max}} 人</button>
+  <view wx:for="{{out_list}}">{{item}}</view>
+</view>
+<view class="sw">
+  男女配对模式：
+  <switch checked bindchange="switchChange"/>
+</view>
+
+<button class="do" type="primary" bindtap='comfirm'>Do</button>
+<view class="res">配对结果：</view>
+<view class="resArea">
+  <view class="l">
+    <view class="l_result" wx:for="{{l_resList}}">{{item}}</view>
+  </view>
+  <view class="r">
+    <view class="r_result" wx:for="{{r_resList}}">{{item}}</view>
+  </view>
+</view>
+
+
+<button class="comfirm" type="primary" bindtap='jump'>返回主页</button>

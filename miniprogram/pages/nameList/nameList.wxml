@@ -1,0 +1,10 @@
+<!--nameList.wxml-->
+<view id="title">NameList</view>
+<checkbox-group class="cbg" bindchange="checkboxChange">
+  <label class="chb" wx:for="{{items}}">
+    <checkbox value="{{item.value}}" checked="{{all_checked}}">{{item.value}}</checkbox> 
+  </label>
+  <checkbox class="all" value="all">全选</checkbox>
+</checkbox-group>
+<button class="comfirm" type="primary" bindtap='jump'>Done</button>
+
