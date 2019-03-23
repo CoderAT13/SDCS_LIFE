@@ -1,4 +1,4 @@
-﻿# Tutorial
+# Tutorial
 
 ## Author:
 CoderAt
@@ -18,8 +18,14 @@ CoderAt
 
 - [学习参考顺序][3]
 
+- [一些方法][4]
+
+- [毕业大项目][5]
+
 
   [1]: https://github.com/CoderAT13/SDCS_LIFE/blob/master/Tutorials/doc/Docs.md
   [2]: https://github.com/CoderAT13/SDCS_LIFE/blob/master/Tutorials/doc/Basic.md
   [3]: https://github.com/CoderAT13/SDCS_LIFE/blob/master/Tutorials/doc/Order.md
+  [4]: https://github.com/CoderAT13/SDCS_LIFE/blob/master/Tutorials/doc/Method.md
+  [5]: https://github.com/CoderAT13/SDCS_LIFE/blob/master/Tutorials/doc/Project.md
   
